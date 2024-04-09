@@ -1,0 +1,46 @@
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 900px;
+  padding: 0 2rem 0 2rem;
+  margin: 0 auto;
+}
+
+main {
+  min-height: calc(100vh - 85px - 22px);
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+main a {
+  text-decoration: none;
+  color: back
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color:red;
+  cursor: default;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  background-color: rgb(26, 16, 10);
+  height: 85px;
+}
+header a {
+  text-decoration: none;
+  color:white;
+}
+header a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
