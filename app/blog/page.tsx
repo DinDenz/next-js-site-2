@@ -1,4 +1,4 @@
-import { Metadata } from "next"
+import { Metadata } from "next";
 import Link from "next/link";
 
 //данные кэшируются ПУ - т е при перезагрузке не будет происходить повторный запрос
