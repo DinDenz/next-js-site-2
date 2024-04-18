@@ -22,7 +22,7 @@ export default function RootLayout({
         <TheHeader/>
         <main className='container'>{children}</main>
         <TheFooter/>
-        </body>
+      </body>
     </html>
   )
 }

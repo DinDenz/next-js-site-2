@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+
 type Props = {
     params: {
         id: string;
