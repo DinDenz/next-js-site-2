@@ -16,6 +16,8 @@ const Posts = () => {
     useEffect(() => {
         getAllPosts();
     }, [getAllPosts])
+
+    
   return (loading? (<h3>Loading...</h3>) :
     <ul>
         {posts.map( (post : any) => (
